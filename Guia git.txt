@@ -1,0 +1,46 @@
+Javascript
+Esmascript
+Typescript
+
+GitHub
+
+Comandos de git
+git add
+git commit
+git push
+git fetch
+git checkout
+git merge
+
+Primera manera es editar desde el navegador. 
+Creamos un repositorio
+Y clonamos desde la pagina web
+
+vamos al terminar de git en el pc y ponemos 
+git clone (link)
+Entras a la carpeta 
+
+git status
+(Ver la informacion cargada o no)
+
+git add (nombre del documento)
+(working directory 1  >  staging area 2)
+
+git add .
+(Es igual que el git add pero carga todas las diferncias)
+
+git diff
+(Indica la diferencia entre working directory y staging area)
+
+git commit -m "Añadimos un formulario" 
+(staging area 2 > localrepo 3)
+
+git push 
+(localrepo 3 > remote Repo 4)
+
+Teclados mecanicos 
+redragon k530
+logitech  g613
+logitech g915 tkl
+razer blackwindow v3 pro
+anne pro 2
