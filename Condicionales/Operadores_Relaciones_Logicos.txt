@@ -1,0 +1,14 @@
+// Operadores Relacionales
+// Mayor >
+// Menor <
+// Mayor o igual >=
+// Menor o igual <=
+// Igual ==
+// Distinto !=
+
+// Operadores logicos
+// AND(Y) &&
+// OR(O) ||
+// Negación !
+
+Los ejemplos estan dentro de condifional if
