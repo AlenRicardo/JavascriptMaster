@@ -16,6 +16,11 @@ Primera manera es editar desde el navegador.
 Creamos un repositorio
 Y clonamos desde la pagina web
 
+++++++++++++++++++++++++++++
+git para iniciarlo sin clonar
+Git init
+++++++++++++++++++++++++++++
+
 vamos al terminar de git en el pc y ponemos 
 git clone (link)
 Entras a la carpeta 
@@ -31,6 +36,8 @@ git add .
 
 git diff
 (Indica la diferencia entre working directory y staging area)
+git diff --staged 
+(Muestra la diferencia entre staged y commit)
 
 git commit -m "Añadimos un formulario" 
 (staging area 2 > localrepo 3)
@@ -38,9 +45,29 @@ git commit -m "Añadimos un formulario"
 git push 
 (localrepo 3 > remote Repo 4)
 
+git log
+(Muestras el historia de los cambios realizados)
+git log --oneline
+(Muestra una mejor version del historial)
+
 Teclados mecanicos 
 redragon k530
 logitech  g613
 logitech g915 tkl
 razer blackwindow v3 pro
 anne pro 2
+
+git restore --staged
+(Cuando le das a git status revisar las diferencias no cargadas y puedes restaurar un documento)
+
+git branch
+(Revisar que rama estamos)
+
+git checkout -b <nombre de la rama>
+(Creando una rama)
+
+git merge <nombre de la rama no main>
+(Debes estar en la rama main, y este comando es para reemplazar la rama principal por la que llamamos)
+
+cat archivo
+(Archivo para abrir en edio)
