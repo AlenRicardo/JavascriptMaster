@@ -1,0 +1,1 @@
+Es similar a debugger pero en ver de pausar las iteraciones lo rompe y termina el buble
