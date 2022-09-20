@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eventos de Raton</title>
+
+        <!-- Para poder cargar esto aqui fue necesario el evento LOAD que esta en eventos de raton -->
+        <script type="text/javascript" src="01-Eventos-raton.js"></script>
+        <script type="text/javascript" src="02-Eventos-teclado.js"></script>
+        <script type="text/javascript" src="04-Timers.js"></script>
+</head>
+<body>
+    <h1>Eventos de raton Clasica</h1>
+    <button id="boton" onclick="cambiarColor()">Presioname</button>
+    <!-- puede poner tambien doble click ondbclick() -->
+    <br>
+    <p>
+        <div id="micaja">El boton de arriba tiene un evento</div>
+    </p>
+    <hr>
+
+    <h1>Eventos de raton Actual</h1>
+    <button id="boton1">Presioname</button>
+    <br>
+    <p>
+        <div id="micaja1">El boton de arriba tiene un evento</div>
+    </p>
+    <hr>
+
+    <!-- +++++++++++++++++++++++++ Evento Teclado +++++++++++++++++++++++ -->
+    
+    <h1>Eventos de teclado</h1>
+    <p>
+        <button>Presioname</button>
+        <form action="">
+            <input type="text" name="nombre" id="campo_nombre"/>
+        </form>
+    </p>
+
+    <hr>
+    <br>
+
+    <!-- +++++++++++++++++++++++++ Evento Load +++++++++++++++++++++++ -->
+    
+    
+    <!-- +++++++++++++++++++++++++ Evento timers +++++++++++++++++++++++ -->
+    <p>
+        <h1>Eventos de Timers</h1>
+        <h2 class="timers">Metodo setInterval</h2>
+        <p>Este titulo va a cambiar cada 3 segundo su tamaño con el metodo setInterval</p>
+        <h3>Metodos Timeout</h3>
+        <p>Este titulo muestra en consola un mensaje que sale a los 5 minutos solo una vez</p>
+        <button id="reloj">Deterner Reloj</button>
+    </p>
+
+    
+</body>
+</html>
