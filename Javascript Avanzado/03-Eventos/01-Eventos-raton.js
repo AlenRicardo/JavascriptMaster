@@ -54,4 +54,4 @@ boton.addEventListener('mouseout', function(){
 });
 
 
-}); //Final del evento loao
+}); //Final del evento load
