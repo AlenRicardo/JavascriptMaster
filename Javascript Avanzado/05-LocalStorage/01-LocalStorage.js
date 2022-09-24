@@ -43,5 +43,5 @@ window.addEventListener('load', function() {
     localStorage.removeItem("usuario");
     
     //Limpiar todo el localstorage
-    localStorage.clear();
+    // localStorage.clear();
 });
