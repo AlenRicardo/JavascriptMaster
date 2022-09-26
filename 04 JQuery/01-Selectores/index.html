@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script type="text/javascript" src="jquery-3.6.1.slim.min.js"></script>
+    <script type="text/javascript" src="01-selector-id.js"></script>
+    <script type="text/javascript" src="02-selector-clases.js"></script>
+    <script type="text/javascript" src="03-selector-etiquetas.js"></script>
+    <script type="text/javascript" src="04-selector-atributos.js"></script>
+    <script type="text/javascript" src="05-find-parend.js"></script>
+
+    <!-- <script>
+        $(document).ready(function(){
+            console.log("jQuery y la web cargados...");
+        })
+    </script> -->
+    <style>
+        .zebra{
+            border: 5px dashed black;
+        }
+        .margen{
+            display: block;
+            margin-top: 20px;
+        }
+        .prueba{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo JQuery</h1>
+    <h2>Seleccionando ID</h2>
+    <p id="texto0">JQuery</p>
+    <p id="texto1">Practicando con selectores de ID</p>
+    <p id="texto2">Practicando con selectores</p>
+    <hr>
+
+    <h2>Seleccionando Clases</h2>
+    <p class="parrafo0 sin_borde">Practicando con selectores para clases</p>
+    <p class="parrafo1 sin_borde">Practicando a seleccionar clase</p>
+    <p class="parrafo0 sin_borde">Practicando</p>
+    <p class="tetero">Este parrafo no tiene clases</p>
+    <hr>
+
+    <h2>Seleccionando por atributos</h2>
+    <ul>
+        <li><a href="https://www.google.com" title="google">Ir a google</a></li>
+        <li><a href="https://www.facebook.com" title="facebook">Ir a facebook</a></li>
+    </ul>
+
+    <h2>Seleccionando otros</h2>
+    <div id="caja">
+        <p>Hola Soy una caja</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li class="prueba">Elemento 2</li>
+        </ul>
+    </div>
+</body>
+</html>
