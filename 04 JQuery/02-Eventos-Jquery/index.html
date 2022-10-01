@@ -6,9 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="jquery-3.6.1.slim.min.js"></script>
-    <script type="text/javascript" src="01-Eventos-mouse-hover.js"></script>
+    <script type="text/javascript" src="01-Eventos-mouseover-mouseout.js"></script>
+    <script type="text/javascript" src="02-Evento-hover.js"></script>
+    <script type="text/javascript" src="03-Click-dobleclick.js"></script>
+    <script type="text/javascript" src="04-Blur-focus.js"></script>
+    <script type="text/javascript" src="05-Mas-Eventos-mouse.js"></script>
+    <style>
+        #caja{
+            border: 1px solid black;
+            background: yellow;
+            width: 250px;
+            height: 250px;
+            transition: 300px all;
+        }
+
+        #micaja{
+            border: 1px solid black;
+            background: yellow;
+            width: 250px;
+            height: 250px;
+            transition: 300px all;
+        }
+        /*
+        #caja:hover{
+            background: red;
+            cursor: pointer;
+        }*/
+
+        input{
+            padding: 15px;
+            width: 300px;
+            font-size: 20px;
+        }
+
+        #datos{
+            border: 2px dashed black;
+            padding: 10px;
+            width: 250px;
+            height: 50px;
+            margin-top: 10px;
+            display: none;
+        }
+        #eventos{
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 50px;
+            width: 250px;
+            margin-top: 10px;
+        }
+        #sigueme{
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            display: block;
+            background: yellow;
+            opacity: 0.5;
+            border-radius: 999px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Eventos de JQuery</h1>
+    <h1>Eventos Jquery</h1>
+    <h2>Eventos de MouseOver MouseOut</h2>
+    <div id="caja">
+        Soy una caja, probamos el hover con el css para compararlo con el de jquery
+        <h3>Aqui hay un evento de 1 click cambia la letra a blanco</h3>
+    </div>
+    <hr>
+    <h2>Eventos de Hover</h2>
+    <div id="micaja">
+        Soy una caja, Este es el hover con jquery
+        <h3>Aqui es un evento doble click cambiara las letras a blanco</h3>
+    </div>
+    <hr>
+    <h2>Evento de blur y focus</h2>
+    <form action="">
+        <input id="nombre" type="text">
+    </form>
+    <div id="datos">
+
+    </div>
+    <h2>Eventos de mouse</h2>
+    <div id="eventos">
+        <p>Con el boton puede limpiar este div</p>
+    </div>
+    <button id="limpiar">Blanco</button>
+    <hr>
+    <div>
+        <h2>Bolita amarilla que sigue el raton</h2>
+        <div id="sigueme">
+
+        </div>
+    </div>
 </body>
 </html>
